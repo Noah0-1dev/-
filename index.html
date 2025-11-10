@@ -1,11 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>111321150</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cake Delivery in Scaynes Hill</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #222;
+        }
+        h1 {
+            font-weight: 700;
+            font-size: 2.2rem;
+            color: #d80070;
+            margin-bottom: 5px;
+            line-height: 1.2;
+        }
+        p.description {
+            font-size: 0.8rem;
+            max-width: 400px;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        .specialities,
+        .cake-collection {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 50px;
+        }
+        .specialities .item,
+        .cake-collection .item {
+            text-align: center;
+            font-size: 0.7rem;
+            color: #d80070;
+            max-width: 120px;
+        }
+        .specialities .item img,
+        .cake-collection .item img {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .specialities .item span,
+        .cake-collection .item span {
+            display: block;
+            font-weight: 700;
+            margin-top: 5px;
+            color: #d80070;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .about-us {
+            background-color: #ffe4e6;
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            max-width: 720px;
+            margin-bottom: 50px;
+            align-items: center;
+        }
+        .about-text {
+            max-width: 350px;
+            font-size: 0.7rem;
+            color: #333;
+        }
+        .about-text h2 {
+            color: #d80070;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .about-text p {
+            line-height: 1.3;
+            margin-bottom: 15px;
+        }
+        .btn-readmore {
+            background-color: #d80070;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            font-size: 0.7rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .about-image img {
+            width: 320px;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+        .cake-collection .item span.price {
+            display: block;
+            font-weight: 400;
+            color: #333;
+            margin-top: 3px;
+        }
+        .cake-collection .see-more {
+            margin-left: 20px;
+            font-size: 0.7rem;
+            color: #d80070;
+            cursor: pointer;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .cake-collection .see-more:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>CAKE DELIVERY<br />IN SCAYNES HILL</h1>
+    <p class="description">
+        Savour the taste of luxury with our delectable cakes in Scaynes Hill. Perfect for any occasion, from indulgent brownies for your sweet cravings to last-minute, bespoke birthday cakes. Trust us to bring sweetness to your doorstep, every time.
+    </p>
+
+    <div>
+        <div style="color: #d80070; font-size: 0.6rem; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;">OUR SPECIALITIES</div>
+        <div class="specialities">
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1505253210343-b8481a477069?auto=format&fit=crop&w=120&q=80" alt="Cake" />
+                <span>Cakes</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1542831371-d531d36971e6?auto=format&fit=crop&w=120&q=80" alt="Weddings & Events" />
+                <span>Weddings & Events</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=120&q=80" alt="Macarons" />
+                <span>Macarons</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1544181938-4ebb6ee2fa3e?auto=format&fit=crop&w=120&q=80" alt="Cupcakes" />
+                <span>Cupcakes</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div class="about-text">
+            <h2>ABOUT US</h2>
+            <p>
+                We specialise in creating beautiful and original cakes, cupcakes, tiered cakes, novelty cakes, macaroons, and wedding cakes for all occasions, including birthdays, corporate events, and weddings.
+            </p>
+            <button class="btn-readmore">READ MORE</button>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=320&q=80" alt="About Us" />
+        </div>
+    </div>
+
+    <div>
+        <div style="color: #d80070; font-size: 0.6rem; font-weight: 700; text-transform: uppercase; margin-bottom: 15px;">CAKE COLLECTION</div>
+        <div class="cake-collection">
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1505253210343-b8481a477069?auto=format&fit=crop&w=120&q=80" alt="Cotton Candy Cake" />
+                <span>Cotton Candy Cake</span>
+                <span class="price">£45.00</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1562440499-878fb3b78c58?auto=format&fit=crop&w=120&q=80" alt="Chocolate Lovers Cake" />
+                <span>Chocolate Lovers Cake</span>
+                <span class="price">£45.00</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1528756514091-dee40ae104bb?auto=format&fit=crop&w=120&q=80" alt="Lemon Raspberry Cake" />
+                <span>Lemon Raspberry Cake</span>
+                <span class="price">£45.00</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1510626176961-4b105180d445?auto=format&fit=crop&w=120&q=80" alt="Macaron Crown Cake" />
+                <span>Macaron Crown Cake</span>
+                <span class="price">£45.00</span>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=120&q=80" alt="Caramel Crunch Cake" />
+                <span>Caramel Crunch Cake</span>
+                <span class="price">£45.00</span>
+            </div>
+            <div class="see-more">See More Cakes →</div>
+        </div>
+    </div>
 </body>
 </html>
